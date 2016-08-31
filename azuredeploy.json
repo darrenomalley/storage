@@ -17,7 +17,7 @@
     }
   },
   "variables": {
-    "storageAccountName": "rmadatumstor99lrs",
+    "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'standardsa')]",
     "apiVersion": "2015-06-15"
   },
   "resources": [
